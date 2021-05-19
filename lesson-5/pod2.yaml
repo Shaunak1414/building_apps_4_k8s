@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: crashcart
+  labels:
+    app: kubeacademy
+spec:
+  containers:
+  - name: building-apps-container
+    image: shaunak1414/shaun_app:v2
